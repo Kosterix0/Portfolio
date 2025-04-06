@@ -43,18 +43,22 @@ export const Hero = () => {
             </p>
 
             <div className="flex gap-4 justify-center">
-              <motion.button
-                whileHover={{ scale: 1.05 }}
-                className="px-6 py-3 bg-emerald-500 rounded-full font-medium hover:bg-emerald-600 transition-colors"
-              >
-                Contact Me
-              </motion.button>
-              <motion.button
-                whileHover={{ scale: 1.05 }}
-                className="px-6 py-3 border border-white/20 rounded-full font-medium hover:bg-white/10 transition-colors"
-              >
-                View Work
-              </motion.button>
+              <a href="#contact">
+                <motion.button
+                  whileHover={{ scale: 1.05 }}
+                  className="px-6 py-3 bg-emerald-500 rounded-full font-medium hover:bg-emerald-600 transition-colors cursor-pointer"
+                >
+                  Contact Me
+                </motion.button>
+              </a>
+              <a href="#portfolio">
+                <motion.button
+                  whileHover={{ scale: 1.05 }}
+                  className="px-6 py-3 border border-white/20 rounded-full font-medium hover:bg-white/10 transition-colors cursor-pointer"
+                >
+                  View Work
+                </motion.button>
+              </a>
             </div>
           </motion.div>
         </div>
