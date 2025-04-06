@@ -13,11 +13,11 @@ export const Footer = () => {
       <div className="max-w-[1200px] mx-auto px-4">
         <div className="flex items-center justify-between flex-col md:flex-row">
           <div>
-            <h2 className="md:text-7xl text-4xl font-bold mb-10 text-white/50">
+            <h2 className="md:text-4xl text-2xl font-bold mb-10 text-white/50">
               Get in <span className="text-gray-400">touch</span>
             </h2>
             <a
-              className="md:text-3xl text-2xl font-semibold text-white underline decoration-gray-400 decoration-2
+              className="md:text-xl text-l font-semibold text-white underline decoration-gray-400 decoration-2
                                     underline-offset-4 hover:decoration-gray-200 transition duration-300"
               href="mailto:john@doe.com"
             >
