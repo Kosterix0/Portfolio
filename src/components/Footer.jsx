@@ -19,7 +19,7 @@ export const Footer = () => {
             <a
               className="md:text-4xl sm:text-2xl text-l font-semibold text-white underline decoration-gray-400 decoration-2
                                     underline-offset-4 hover:decoration-gray-200 transition duration-300 break-words whitespace-normal"
-              href="mailto:john@doe.com"
+              href="mailto:ksawerymiszczakgit@gmail.com"
             >
               ksawerymiszczakgit@gmail.com
             </a>
@@ -29,7 +29,7 @@ export const Footer = () => {
             <div className="mb-8">
               <p className="text-lg mb-1">Phone</p>
               <a
-                href="+990788979999"
+                href="+48733139757"
                 className="text-3xl font-semibold underline decoration-gray-400 decoration-2
                                     underline-offset-4 hover:decoration-gray-400 transition duration-300"
               >
