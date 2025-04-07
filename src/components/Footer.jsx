@@ -29,7 +29,7 @@ export const Footer = () => {
             <div className="mb-8">
               <p className="text-lg mb-1">Phone</p>
               <a
-                href="+48733139757"
+                href="tel:+48733139757"
                 className="text-3xl font-semibold underline decoration-gray-400 decoration-2
                                     underline-offset-4 hover:decoration-gray-400 transition duration-300"
               >
